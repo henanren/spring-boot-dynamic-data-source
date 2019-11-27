@@ -1,0 +1,54 @@
+# ---> Java
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.project
+*.settings/
+
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+/.idea/
+/yideb-clinic-app-api/yideb-clinic-app-api.iml
+/yideb-clinic-app.iml
+/yideb-clinic-app-srv/yideb-clinic-app-srv.iml
+/yideb-clinic-app-api/target
+/yideb-clinic-app-srv/target
+/logs
+
+yideb-clinic-app-api/.classpath
+yideb-clinic-app-api/.project
+yideb-clinic-app-api/.settings/
+yideb-clinic-app-srv/.classpath
+yideb-clinic-app-srv/.project
+yideb-clinic-app-srv/.settings/
+
+
+
+/**/.idea
+/**/*.iml
+/**/target
+
+*.class
+.classpath
+*.jar
+*.war
+*.ear
+hs_err_pid*
+logs/
+target/classes/
+/target/
+/.settings
+*/target/
+*/abator/
+*/.settings
+/abator
+/.project
+*/.project

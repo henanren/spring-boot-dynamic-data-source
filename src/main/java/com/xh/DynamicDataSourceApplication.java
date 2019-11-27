@@ -13,10 +13,10 @@ import org.springframework.context.annotation.Import;
 @MapperScan("com.xh.mapper")
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 @Import({DynamicDataSourceConfig.class})
-public class SpringBootDynamicDataSourceApplication {
+public class DynamicDataSourceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootDynamicDataSourceApplication.class, args);
+        SpringApplication.run(DynamicDataSourceApplication.class, args);
     }
 
 }
